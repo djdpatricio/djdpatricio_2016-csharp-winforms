@@ -24,7 +24,7 @@ packages/
 *.bak # Backup files
 
 # JetBrains Rider/ReSharper User Settings
-# As seen: MC.LaundryShop.sln.DotSettings.user
+# As seen: DJDPatricio.LaundryShop.sln.DotSettings.user
 *.DotSettings.user
 *.resharper.user
 _ReSharper*/ # Specific ReSharper cache directories
