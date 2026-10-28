@@ -42,7 +42,7 @@ This repository contains a a WinForms (.NET Framework) project to Automate Simpl
 
 ## 📄 Release Documentation
 
-For detailed release notes and documentation, please refer to our [RELEASE](https://github.com/MasterConnoisseurs/mc-2016-csharp-winforms/releases/tag/v1.0).
+For detailed release notes and documentation, please refer to our [RELEASE](https://github.com/djdpatricio/djdpatricio_2016-csharp-winforms/releases/tag/v1.0).
 
 ---
 
@@ -67,7 +67,7 @@ After installation, use these credentials to log into the application for the fi
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/MasterConnoisseurs/mc-2016-csharp-winforms.git
+   git clone https://github.com/djdpatricio/djdpatricio_2016-csharp-winforms.git
    ```
 2. Execute Database Script : [Database Script](https://drive.google.com/file/d/1XloNdcnoJ3eb2VBiZbIQIv139yICfCOq/view?usp=sharing) 📄
 3. Update the connection string to match your connection details.
