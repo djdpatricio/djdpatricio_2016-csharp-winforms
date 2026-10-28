@@ -73,7 +73,7 @@ After installation, use these credentials to log into the application for the fi
 3. Update the connection string to match your connection details.
     ```xml
     <connectionStrings>
-        <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=mc_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
+        <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=djdpatricio_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
     </connectionStrings>
     ```
 
