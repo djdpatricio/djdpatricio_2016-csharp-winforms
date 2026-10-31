@@ -180,6 +180,15 @@ Here are some screenshots of the DJDPatricio Laundry Shop Application in action:
 
 ---
 
+## 🙏 Credits
+
+- **Font:** [Poppins](https://fonts.google.com/specimen/Poppins) (Regular and SemiBold) by Indian Type Foundry, licensed under the [SIL Open Font License 1.1](https://openfontlicense.org). The font is not bundled; install it from Google Fonts so the forms render as designed, otherwise Windows falls back to a default font.
+- **Icons:** the 20 sidebar and button icons in `DJDPatricio.LaundryShop.App/Resources` (512×512 PNGs such as `cart.png`, `customer.png`, `supplier.png`) carry no author or license metadata, only an Inkscape export tag. Their original source and license are to be confirmed.
+- **Background:** `Resources/bg-png.png` is marked in its metadata as AI generated ("Made with Google AI").
+- **Logo and placeholder:** the source of `logo.png`, `logo-full.png` and `placeholder.png` is to be confirmed.
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
