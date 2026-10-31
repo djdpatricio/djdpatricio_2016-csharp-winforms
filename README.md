@@ -33,7 +33,7 @@ This repository contains a WinForms (.NET Framework) desktop application, brande
 - **Data access:** ADO.NET with the `MySql.Data` 8.0.33 connector (`MySqlConnection`, `MySqlCommand`, parameterized inline queries)
 - **Configuration:** connection string `MySQLConnection` in `App.config`, read through `System.Configuration.ConfigurationManager`
 - **Security:** SHA-256 password hashing with `System.Security.Cryptography`
-- **Deployment:** ClickOnce publishing with signed manifests and a .NET Framework 4.6.2 bootstrapper
+- **Deployment:** ClickOnce publishing with a .NET Framework 4.6.2 bootstrapper (manifest signing is off in the repo; sign with your own certificate when publishing)
 
 <details>
 <summary>📦 NuGet packages (<code>packages.config</code>)</summary>
@@ -144,7 +144,7 @@ After installation, use these credentials to log into the application for the fi
     ```
 4. Open `DJDPatricio.LaundryShop.sln` in Visual Studio. NuGet restores `MySql.Data` and its dependencies on the first build.
 5. Press **F5** to build and run, then sign in with the default credentials above.
-6. Optional: use **Build → Publish** to produce a ClickOnce installer.
+6. Optional: use **Build → Publish** to produce a ClickOnce installer. The repo ships no signing certificate, so to sign the manifests open **Project Properties → Signing**, tick **Sign the ClickOnce manifests** and pick your own certificate (or create a test certificate there). Keep that `.pfx` out of git; `.gitignore` already excludes `*.pfx`.
 
 ---
 
