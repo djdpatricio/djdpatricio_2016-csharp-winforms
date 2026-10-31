@@ -136,10 +136,10 @@ After installation, use these credentials to log into the application for the fi
    ```bash
    mysql -u root -p < djdpatricio_laundryclean.sql
    ```
-3. Update the connection string in `DJDPatricio.LaundryShop.App/App.config` to match your connection details.
+3. Set your local MySQL user and password in the `MySQLConnection` connection string in `DJDPatricio.LaundryShop.App/App.config`. `Pwd=CHANGE_ME` is a placeholder, not a real password; replace it with your own local value and do not commit it.
     ```xml
     <connectionStrings>
-        <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=djdpatricio_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
+        <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=djdpatricio_laundryclean;Uid=root;Pwd=CHANGE_ME;" providerName="MySql.Data.MySqlClient" />
     </connectionStrings>
     ```
 4. Open `DJDPatricio.LaundryShop.sln` in Visual Studio. NuGet restores `MySql.Data` and its dependencies on the first build.
