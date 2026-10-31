@@ -19,15 +19,19 @@ packages/
 [Bb]in/
 [Oo]bj/
 [Pp]ublish/
-*.pdb # Program Database files (debugging symbols)
-*.log # General log files
-*.bak # Backup files
+# Program Database files (debugging symbols)
+*.pdb
+# General log files
+*.log
+# Backup files
+*.bak
 
 # JetBrains Rider/ReSharper User Settings
 # As seen: DJDPatricio.LaundryShop.sln.DotSettings.user
 *.DotSettings.user
 *.resharper.user
-_ReSharper*/ # Specific ReSharper cache directories
+# Specific ReSharper cache directories
+_ReSharper*/
 
 # Other temporary or generated files
 # If you see them appear, consider adding them
